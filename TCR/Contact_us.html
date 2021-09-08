@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact Us</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/contact-us.css" />
+	</head>
+	<body>
+		<nav>
+			<a href="index.html"><img src="./public/logo.png" /></a>
+			<div class="nav-links">
+				<ul>
+					<li><a href="./">HOME</a></li>
+					<li><a href="./Project.html">PROJECTS</a></li>
+					<li><a href="./Blogs.html">BLOGS</a></li>
+					<li><a href="./About_us.html">ABOUT US</a></li>
+					<li><a href="./Contact_us.html">CONTACT US</a></li>
+				</ul>
+			</div>
+		</nav>
+		<br />
+		<br />
+		<br />
+		<main>
+			<div id="heading">Contact Us</div>
+		</main>
+		<form action="#" method="post">
+			<p>
+				Sample apartments are ready. Make use of our exclusive launch offers to
+				plan your dream home.
+			</p>
+
+			<div class="column">
+				<label for="the-name">Your Name</label>
+				<input type="text" name="name" id="the-name" />
+
+				<label for="the-email">Email Address</label>
+				<input type="email" name="email" id="the-email" />
+
+				<label for="the-phone">Phone Number</label>
+				<input type="tel" name="phone" id="the-phone" />
+
+				<label for="the-reason">How can we help you?</label>
+				<select name="reason" id="the-reason">
+					<option value=""></option>
+					<option value="">Rebuild my home</option>
+					<option value="web">Redesign my home</option>
+				</select>
+			</div>
+			<div class="column">
+				<label for="the-message">Message</label>
+				<textarea name="message" id="the-message"></textarea>
+				<label>
+					<input type="checkbox" name="newsletter" value="yes" /> Join our
+					mailing list?
+				</label>
+				<input type="submit" value="Send Message" />
+			</div>
+		</form>
+		<!-- End .container -->
+	</body>
+</html>
